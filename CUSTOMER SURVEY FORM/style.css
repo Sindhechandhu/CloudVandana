@@ -1,0 +1,21 @@
+/* Include the same CSS as the previous examples for styling */
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+}
+
+.popup-label {
+  font-weight: bold;
+}
